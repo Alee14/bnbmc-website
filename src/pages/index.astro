@@ -9,7 +9,7 @@ import sites from '../components/sites.json';
 <Layout>
 	<div class="container">
 		<h1>Welcome to bits & Bytes Minecraft!</h1>
-		<p>IP: mc.bnbmc.net</p>
+		<p class="ip">IP: bnbmc.net</p>
 		<i>Must be an active member of the bits & Bytes Discord to join.</i>
 		<div class="flex">
 			{sites.map((site) => (
@@ -52,5 +52,9 @@ import sites from '../components/sites.json';
 		padding: 2em;
 		margin-top: .5em;
 		margin-bottom: .5em;
+	}
+
+	.ip {
+		font-size: 1.2em;
 	}
 </style>
