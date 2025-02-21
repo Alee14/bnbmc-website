@@ -1,0 +1,56 @@
+---
+import Layout from '../layouts/Layout.astro';
+import sites from '../components/sites.json';
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+	<div class="container">
+		<h1>bits & Bytes Minecraft</h1>
+		<p>IP: mc.bnbmc.net</p>
+		<i>Must be an active member of the bits & Bytes Discord to join.</i>
+		<div class="flex">
+			{sites.map((site) => (
+				<div class="site">
+					<a href={site.website}>{site.name}</a>
+				</div>
+			))}
+		</div>
+	</div>
+</Layout>
+
+<style>
+	a {
+		font-size: 1.2em;
+		color: #22b7f1;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #4198bc;
+		text-decoration: none;
+	}
+
+	a:active {
+		color: #3f7a91;
+	}
+
+	.container {
+		padding-top: 2em;
+		padding-left: 6em;
+		padding-right: 6em;
+	}
+
+	.flex {
+		display: flex;
+		flex-direction: column;
+	}
+	.site {
+		background-color: #394049;
+		padding: 2em;
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
+</style>

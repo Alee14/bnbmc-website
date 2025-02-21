@@ -1,0 +1,77 @@
+[
+  {
+    "name": "bnbmc Wiki",
+    "website": "https://wiki.bnbmc.net",
+    "type": "wiki"
+  },
+  {
+    "name": "AirCS Race",
+    "website": "https://aircs.racing",
+    "type": "transportation"
+  },
+  {
+    "name": "SQTR",
+    "website": "https://sqtr.aircs.racing",
+    "type": "transportation"
+  },
+  {
+    "name": "FrivoloCo",
+    "website": "https://frivoloco.aircs.racing",
+    "type": "business"
+  },
+  {
+    "name": "MinePot",
+    "website": "https://minepot.aircs.racing",
+    "type": "business"
+  },
+  {
+    "name": "Waveform Music Solutions",
+    "website": "https://waveformmusic.aircs.racing",
+    "type": "business"
+  },
+  {
+    "name": "TAY",
+    "website": "https://tay.aircs.racing",
+    "type": "country"
+  },
+  {
+    "name": "KR",
+    "website": "https://kr.aircs.racing",
+    "type": "country"
+  },
+  {
+    "name": "Anatoli",
+    "website": "https://anatoli.aircs.racing",
+    "type": "country"
+  },
+  {
+    "name": "Open Republic",
+    "website": "https://openrepublic.aircs.racing",
+    "type": "country"
+  },
+  {
+    "name": "Alure Regions",
+    "website": "https://alure.bnbmc.net",
+    "type": "country"
+  },
+  {
+    "name": "Aura Regions",
+    "website": "https://auraregions.aircs.racing",
+    "type": "country"
+  },
+  {
+    "name": "Mojave",
+    "website": "https://mojave.aircs.racing",
+    "type": "country"
+  },
+  {
+    "name": "Yavno Republic",
+    "website": "https://yavno.aircs.racing",
+    "type": "country"
+  },
+  {
+    "name": "Solstan Federation",
+    "website": "https://solstice.bnbmc.net",
+    "type": "country"
+  }
+]
