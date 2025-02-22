@@ -1,9 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import sites from '../components/sites.json';
+import news from '../components/news.json';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
@@ -11,17 +10,30 @@ import sites from '../components/sites.json';
 		<h1>Welcome to bits & Bytes Minecraft!</h1>
 		<p class="ip">IP: bnbmc.net</p>
 		<i>Must be an active member of the bits & Bytes Discord to join.</i>
-		<div class="flex">
-			{sites.map((site) => (
-				<div class="site">
-					<a href={site.website}>{site.name}</a>
-				</div>
-			))}
+		<div class="flex-container">
+			<div class="flex-site">
+				{sites.map((site) => (
+					<div class="site">
+						<a href={site.website}>{site.name}</a>
+					</div>
+				))}
+			</div>
+			<div class="flex-news">
+				<h1>News</h1>
+				{news.map((article) => (
+					<h2>{article.title}</h2>
+					<p>{article.content}</p>
+				))}
+			</div>
 		</div>
 	</div>
 </Layout>
 
 <style>
+	.ip {
+		font-size: 1.2em;
+	}
+
 	a {
 		font-size: 1.1em;
 		color: #22b7f1;
@@ -43,18 +55,29 @@ import sites from '../components/sites.json';
 		padding-right: 6em;
 	}
 
-	.flex {
+	.flex-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1em;
+		margin: 1em;
+	}
+
+	.flex-site {
 		display: flex;
 		flex-direction: column;
 	}
 	.site {
 		background-color: #394049;
 		padding: 1.5em;
-		margin-top: .5em;
 		margin-bottom: .5em;
 	}
 
-	.ip {
-		font-size: 1.2em;
+	/* Mobile view */
+	@media (max-width: 992px) {
+		.flex-container {
+			display: grid;
+			grid: auto auto auto / 1fr;
+			margin: 1em;
+		}
 	}
 </style>

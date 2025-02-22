@@ -1,5 +1,15 @@
 [
   {
+    "name": "Server Law",
+    "website": "https://docs.google.com/document/d/1QfpX9mqYp4NDb8uhY-KTC0wlk1W7ZdgC8-NtY1spxhc/edit?tab=t.0#heading=h.87e4sdjd9cn7",
+    "type": "document"
+  },
+  {
+    "name": "Map",
+    "website": "https://terrain.bnbmc.net",
+    "type": "tool"
+  },
+  {
     "name": "bnbmc Wiki",
     "website": "https://wiki.bnbmc.net",
     "type": "wiki"
