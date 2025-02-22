@@ -35,7 +35,7 @@
     "type": "country"
   },
   {
-    "name": "KR",
+    "name": "Kemonomimi Republic",
     "website": "https://kr.aircs.racing",
     "type": "country"
   },
@@ -65,13 +65,13 @@
     "type": "country"
   },
   {
-    "name": "Yavno Republic",
-    "website": "https://yavno.aircs.racing",
+    "name": "Yavno",
+    "website": "https://yavno.bnbmc.net",
     "type": "country"
   },
   {
-    "name": "Solstan Federation",
-    "website": "https://solstice.bnbmc.net",
+    "name": "Solstice",
+    "website": "https://solstice.aircs.racing",
     "type": "country"
   }
 ]
