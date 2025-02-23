@@ -3,12 +3,12 @@
     "id": 1,
     "title": "AirCS Race 2025",
     "date": "2025-02-22",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt, quam ac tempor luctus, nisl est tempor enim, a maximus elit mauris in tellus. Aenean imperdiet fermentum urna, eget scelerisque nibh vestibulum in. Sed orci nulla, mollis non risus ac, tincidunt fermentum lorem. Vestibulum bibendum egestas tristique. Curabitur tincidunt gravida orci a malesuada. Ut sed purus massa. Donec et bibendum velit. Curabitur malesuada, eros vitae porttitor pellentesque, nulla velit congue quam, ut auctor urna massa sit amet felis. Sed condimentum nisi at nunc dapibus, ac egestas tellus pharetra. Sed ut dictum nisl. Quisque dictum, nulla vel laoreet consequat, lectus ex dapibus erat, ac tempus tortor odio eget sapien. Integer eget orci odio. Nunc a sapien ornare, porttitor massa dictum, pharetra nisl. In malesuada leo quis ullamcorper bibendum."
+    "content": "Planning for the AirCS Race of 2025 is now underway. To assist us with planning for the race, please let us know if you spot any stations not mapped on map.aircs.racing.\n\nFurther details will come at a later date.\n\nMay the best minecart rider win!\n"
   },
   {
     "id": 2,
     "title": "ePassport+ now available",
     "date": "2025-02-22",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt, quam ac tempor luctus, nisl est tempor enim, a maximus elit mauris in tellus. Aenean imperdiet fermentum urna, eget scelerisque nibh vestibulum in. Sed orci nulla, mollis non risus ac, tincidunt fermentum lorem. Vestibulum bibendum egestas tristique. Curabitur tincidunt gravida orci a malesuada. Ut sed purus massa. Donec et bibendum velit. Curabitur malesuada, eros vitae porttitor pellentesque, nulla velit congue quam, ut auctor urna massa sit amet felis. Sed condimentum nisi at nunc dapibus, ac egestas tellus pharetra. Sed ut dictum nisl. Quisque dictum, nulla vel laoreet consequat, lectus ex dapibus erat, ac tempus tortor odio eget sapien. Integer eget orci odio. Nunc a sapien ornare, porttitor massa dictum, pharetra nisl. In malesuada leo quis ullamcorper bibendum."
+    "content": "We would like to formally announce that we are rolling out the third generation passport, the ePassport+. This passport is readable by command blocks, allowing for swift border processing at countries where it is supported.\n\nAn ePassport+ can be identified by searching for the [-o-] symbol on the front page, and by issuing the command /passport query while holding it.\n\nCountries can now onboard onto ePassport+ by contacting Victor. Existing passports will continue to work at the discretion of the border control officials at the gate."
   }
 ]

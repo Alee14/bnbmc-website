@@ -10,16 +10,14 @@ import news from '../components/news.json';
 		<h1>Welcome to bits & Bytes Minecraft!</h1>
 		<p class="ip">IP: bnbmc.net</p>
 		<i>Must be an active member of the bits & Bytes Discord to join.</i>
-		<div class="flex-container">
+		<div class="grid-container">
 			<div class="flex-site">
 				{sites.map((site) => (
-					<div class="site">
-						<a href={site.website}>{site.name}</a>
-					</div>
+					<a href={site.website} class="site">{site.name}</a>
 				))}
 			</div>
 			<div class="flex-news">
-				<h1>News</h1>
+				<h1>Announcements</h1>
 				{news.map((article) => (
 					<h2>{article.title}</h2>
 					<p>{article.content}</p>
@@ -30,23 +28,40 @@ import news from '../components/news.json';
 </Layout>
 
 <style>
+
+	:root {
+		--box: #394049;
+		--link: #22b7f1;
+		--link-hover: #4dbdea;
+		--link-active: #3f7a91;
+	}
+
+	@media (prefers-color-scheme: light) {
+		:root {
+			--box: #9bafc8;
+			--link: #135268;
+			--link-hover: #2aabda;
+			--link-active: #2797ca;
+		}
+	}
+
 	.ip {
 		font-size: 1.2em;
 	}
 
 	a {
 		font-size: 1.1em;
-		color: #22b7f1;
+		color: var(--link);
 		text-decoration: none;
 	}
 
 	a:hover {
-		color: #4198bc;
+		color: var(--link-hover);
 		text-decoration: none;
 	}
 
 	a:active {
-		color: #3f7a91;
+		color: var(--link-active);
 	}
 
 	.container {
@@ -55,10 +70,10 @@ import news from '../components/news.json';
 		padding-right: 6em;
 	}
 
-	.flex-container {
+	.grid-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 1em;
+		grid-gap: 2em;
 		margin: 1em;
 	}
 
@@ -67,17 +82,20 @@ import news from '../components/news.json';
 		flex-direction: column;
 	}
 	.site {
-		background-color: #394049;
+		background-color: var(--box);
 		padding: 1.5em;
 		margin-bottom: .5em;
 	}
 
 	/* Mobile view */
 	@media (max-width: 992px) {
-		.flex-container {
+		.grid-container {
 			display: grid;
 			grid: auto auto auto / 1fr;
-			margin: 1em;
 		}
 	}
 </style>
+
+<script>
+	twemoji.parse(document.body);
+</script>

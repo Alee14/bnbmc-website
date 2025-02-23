@@ -83,5 +83,10 @@
     "name": "Solstice",
     "website": "https://solstice.aircs.racing",
     "type": "country"
+  },
+  {
+    "name": "Kingdom of Union Jacks",
+    "website": "https://kuj.bnbmc.net",
+    "type": "country"
   }
 ]
