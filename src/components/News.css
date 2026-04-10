@@ -1,0 +1,16 @@
+.news-message {
+  white-space: pre-wrap;
+}
+
+p {
+  margin: 0.5em;
+}
+
+ul {
+  margin: 1.5em;
+  padding: 0em;
+}
+
+h2 {
+    margin: 0.5em;
+}

@@ -1,92 +1,91 @@
-[
-  {
-    "name": "Server Law",
-    "website": "https://docs.google.com/document/d/1QfpX9mqYp4NDb8uhY-KTC0wlk1W7ZdgC8-NtY1spxhc/edit?tab=t.0#heading=h.87e4sdjd9cn7",
-    "type": "document"
-  },
-  {
-    "name": "Map",
-    "website": "https://terrain.bnbmc.net",
-    "type": "tool"
-  },
-  {
-    "name": "bnbmc Wiki",
-    "website": "https://wiki.bnbmc.net",
-    "type": "wiki"
-  },
-  {
-    "name": "AirCS Race",
-    "website": "https://aircs.racing",
-    "type": "transportation"
-  },
-  {
-    "name": "SQTR",
-    "website": "https://sqtr.aircs.racing",
-    "type": "transportation"
-  },
-  {
-    "name": "FrivoloCo",
-    "website": "https://frivoloco.aircs.racing",
-    "type": "business"
-  },
-  {
-    "name": "MinePot",
-    "website": "https://minepot.aircs.racing",
-    "type": "business"
-  },
-  {
-    "name": "Waveform Music Solutions",
-    "website": "https://waveformmusic.aircs.racing",
-    "type": "business"
-  },
-  {
-    "name": "TAY",
-    "website": "https://tay.aircs.racing",
-    "type": "country"
-  },
-  {
-    "name": "Kemonomimi Republic",
-    "website": "https://kr.aircs.racing",
-    "type": "country"
-  },
-  {
-    "name": "Anatoli",
-    "website": "https://anatoli.aircs.racing",
-    "type": "country"
-  },
-  {
-    "name": "Open Republic",
-    "website": "https://openrepublic.aircs.racing",
-    "type": "country"
-  },
-  {
-    "name": "Alure Regions",
-    "website": "https://alure.bnbmc.net",
-    "type": "country"
-  },
-  {
-    "name": "Aura Regions",
-    "website": "https://auraregions.aircs.racing",
-    "type": "country"
-  },
-  {
-    "name": "Mojave",
-    "website": "https://mojave.aircs.racing",
-    "type": "country"
-  },
-  {
-    "name": "Yavno",
-    "website": "https://yavno.bnbmc.net",
-    "type": "country"
-  },
-  {
-    "name": "Solstice",
-    "website": "https://solstice.aircs.racing",
-    "type": "country"
-  },
-  {
-    "name": "Kingdom of Union Jacks",
-    "website": "https://kuj.bnbmc.net",
-    "type": "country"
-  }
-]
+{
+  "Essentials": [
+    {
+      "name": "Server Law",
+      "website": "https://docs.google.com/document/d/1QfpX9mqYp4NDb8uhY-KTC0wlk1W7ZdgC8-NtY1spxhc/edit?tab=t.0#heading=h.87e4sdjd9cn7"
+    },
+    {
+      "name": "Google Drive",
+      "website": "https://drive.google.com/drive/folders/1kah7A1Vpx70nL6b99pj0JoBBsi2Nvd0e"
+    },
+    {
+      "name": "Map",
+      "website": "https://terrain.bnbmc.net"
+    },
+    {
+      "name": "Wiki",
+      "website": "https://wiki.bnbmc.net"
+    }
+
+  ],
+  "Transportations": [
+    {
+      "name": "AirCS",
+      "website": "https://map.aircs.racing"
+    },
+    {
+      "name": "ClyRail",
+      "website": "https://clyrail.bnbmc.net"
+    },
+    {
+      "name": "SQTR",
+      "website": "https://sqtr.aircs.racing"
+    }
+  ],
+  "Businesses": [
+    {
+      "name": "FrivoloCo",
+      "website": "https://frivoloco.aircs.racing"
+    },
+    {
+      "name": "MinePot",
+      "website": "https://minepot.aircs.racing"
+    },
+    {
+      "name": "Waveform Music Solutions",
+      "website": "https://waveformmusic.aircs.racing"
+    }
+  ],
+  "Countries": [
+    {
+      "name": "Alure Regions",
+      "website": "https://alure.bnbmc.net"
+    },
+    {
+      "name": "Anatoli",
+      "website": "https://anatoli.aircs.racing"
+    },
+    {
+      "name": "Aura Regions",
+      "website": "https://auraregions.aircs.racing"
+    },
+    {
+      "name": "Kemonomimi Republic",
+      "website": "https://kr.aircs.racing"
+    },
+    {
+      "name": "Kingdom of Union Jacks",
+      "website": "https://kuj.bnbmc.net"
+    },
+    {
+      "name": "Mojave",
+      "website": "https://mojave.aircs.racing"
+    },
+    {
+      "name": "Open Republic",
+      "website": "https://openrepublic.aircs.racing"
+    },
+    {
+      "name": "Solstice",
+      "website": "https://solstice.aircs.racing"
+    },
+    {
+      "name": "TAY",
+      "website": "https://tay.aircs.racing"
+    },
+    {
+      "name": "Yavno",
+      "website": "https://yavno.bnbmc.net"
+    }
+  ]
+}

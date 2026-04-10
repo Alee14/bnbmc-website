@@ -1,27 +1,28 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import sites from '../components/sites.json';
-import news from '../components/news.json';
-
+import { News } from '../components/News';
 ---
 
 <Layout>
 	<div class="container">
 		<h1>Welcome to bits & Bytes Minecraft!</h1>
-		<p class="ip">IP: bnbmc.net</p>
+		<p class="ip">IP: bnbmc.net or mc.aircs.racing</p>
 		<i>Must be an active member of the bits & Bytes Discord to join.</i>
 		<div class="grid-container">
-			<div class="flex-site">
-				{sites.map((site) => (
-					<a href={site.website} class="site">{site.name}</a>
-				))}
-			</div>
+		<div class="flex-site">
+			{Object.entries(sites).map(([category, items]) => (
+				<div class="category">
+					<h3>{category}</h3>
+					{items.map((site) => (
+						<a href={site.website} class="site">{site.name}</a>
+					))}
+				</div>
+			))}
+		</div>
 			<div class="flex-news">
 				<h1>Announcements</h1>
-				{news.map((article) => (
-					<h2>{article.title}</h2>
-					<p>{article.content}</p>
-				))}
+				<News client:load />
 			</div>
 		</div>
 	</div>
@@ -66,8 +67,8 @@ import news from '../components/news.json';
 
 	.container {
 		padding-top: 2em;
-		padding-left: 6em;
-		padding-right: 6em;
+		padding-left: 20em;
+		padding-right: 20em;
 	}
 
 	.grid-container {
@@ -81,6 +82,12 @@ import news from '../components/news.json';
 		display: flex;
 		flex-direction: column;
 	}
+
+	.category {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.site {
 		background-color: var(--box);
 		padding: 1.5em;
@@ -93,9 +100,11 @@ import news from '../components/news.json';
 			display: grid;
 			grid: auto auto auto / 1fr;
 		}
+
+		.container {
+			padding-top: 2em;
+			padding-left: 3em;
+			padding-right: 3em;
+		}
 	}
 </style>
-
-<script>
-	twemoji.parse(document.body);
-</script>
