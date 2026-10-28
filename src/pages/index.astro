@@ -13,7 +13,7 @@ import { News } from '../components/News';
 		<div class="flex-site">
 			{Object.entries(sites).map(([category, items]) => (
 				<div class="category">
-					<h3>{category}</h3>
+					<h2>{category}</h2>
 					{items.map((site) => (
 						<a href={site.website} class="site">{site.name}</a>
 					))}
@@ -21,7 +21,8 @@ import { News } from '../components/News';
 			))}
 		</div>
 			<div class="flex-news">
-				<h1>Announcements</h1>
+				<h1 class="title-news">Announcements</h1>
+				<p class="description-news"><small><i>NOTE: Every announcement may not display on this page. Please visit the <a href="https://discord.com/channels/277922530973581312/1019705091336446052">Minecraft General Announcements</a> thread for the latest updates.</i></small></p>
 				<News client:load />
 			</div>
 		</div>
@@ -31,8 +32,8 @@ import { News } from '../components/News';
 <style>
 
 	:root {
-		--box: #394049;
-		--link: #22b7f1;
+		--box: #000000;
+		--link: #32cd32;
 		--link-hover: #4dbdea;
 		--link-active: #3f7a91;
 	}
@@ -88,10 +89,16 @@ import { News } from '../components/News';
 		flex-direction: column;
 	}
 
+	.description-news {
+	    margin: 0 0 1.5em 0;
+	}
+
 	.site {
 		background-color: var(--box);
-		padding: 1.5em;
+		font-size: 1.2em;
+		padding: 1.2em;
 		margin-bottom: .5em;
+		border: 1px solid white;
 	}
 
 	/* Mobile view */

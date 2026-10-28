@@ -1,0 +1,12 @@
+{
+  "component": {
+    "type": 17,
+    "accent_color": 0,
+    "components": [
+      {
+        "type": 10,
+        "content": "## bits & Bytes Minecraft\n"
+      }
+    ]
+  }
+}

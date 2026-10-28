@@ -9,6 +9,15 @@ interface Article {
   created_at: number;
 }
 
+interface LocalDateProps {
+  timestamp: number;
+}
+
+const LocalDate = ({ timestamp }: LocalDateProps) => {
+  const date = new Date(timestamp);
+  return <span>{date.toLocaleString()}</span>;
+};
+
 export function News() {
   const [articles, setArticles] = useState<Article[]>([]);
 
@@ -23,6 +32,8 @@ export function News() {
         {articles.map((article: Article) => (
           <div key={article.title}>
             <h2>{article.title}</h2>
+            <p><small>from {article.author}</small></p>
+            <p><small><LocalDate timestamp={article.created_at} /></small></p>
             <div className="news-message" dangerouslySetInnerHTML={{ __html: sanitizeHtml(article.message) }} />
           </div>
         ))}
